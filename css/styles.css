@@ -209,7 +209,7 @@ body {
 .our-quality-item {
   width: 270px;
 }
-.our-quality-link {
+.our-quality-picture {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -306,6 +306,7 @@ body {
 .team-social-list {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 .team-social-item {
   width: 44px;
@@ -518,6 +519,7 @@ body {
   margin-left: var(--portfolio-list-gap);
   margin-top: var(--portfolio-list-gap);
   background: #ffffff;
+  cursor: pointer;
 }
 .portfolio-item:hover,
 .portfolio-item:focus {
@@ -533,6 +535,10 @@ body {
   margin-left: calc(-1 * var(--portfolio-list-gap));
   margin-top: calc(-1 * var(--portfolio-list-gap));
 }
+.portfolio-card {
+  display: block;
+}
+
 .portfolio-item-bottom {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
